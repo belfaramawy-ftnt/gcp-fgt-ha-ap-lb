@@ -2,7 +2,7 @@ variable "region" {
   type        = string
   description = "Region to deploy all resources in. Must match var.zones if defined."
   nullable    = true
-  default = null
+  default = "me-central2"
 }
 
 variable "prefix" {
